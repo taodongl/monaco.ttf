@@ -15,13 +15,16 @@ You can use rawgit.com as a CDN:
 https://cdn.rawgit.com/todylu/monaco.ttf/d258639b/monaco.ttf
 
 ## Web usage
-Copy this code into the <head> section of your HTML document:
-```html
-<link href="https://cdn.rawgit.com/todylu/monaco.ttf/d258639b/monaco.ttf" rel="stylesheet">
-```
+Copy this code into your CSS stylesheet:
   
-Then in your CSS:
 ```css
+@font-face {
+  font-family: 'Monaco';
+  src: url('https://cdn.rawgit.com/todylu/monaco.ttf/d258639b/monaco.ttf') format('truetype'):
+  font-weight: normal;
+  font-style: normal;
+}
+/* [...] */
 font-family: 'Monaco', monospace;
 ```
   
