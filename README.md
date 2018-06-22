@@ -13,3 +13,16 @@ So I add the characters by myself and share it.
 ## CDN
 You can use rawgit.com as a CDN:
 https://rawgit.com/todylu/monaco.ttf/master/monaco.ttf
+
+## Web usage
+Copy this code into the <head> section of your HTML document:
+```html
+<link href="https://rawgit.com/todylu/monaco.ttf/master/monaco.ttf" rel="stylesheet">
+```
+  
+Then in your CSS:
+```css
+font-family: 'Monaco', monospace;
+```
+  
+  
