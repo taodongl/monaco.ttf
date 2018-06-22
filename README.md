@@ -12,12 +12,12 @@ So I add the characters by myself and share it.
 
 ## CDN
 You can use rawgit.com as a CDN:
-https://rawgit.com/todylu/monaco.ttf/master/monaco.ttf
+https://cdn.rawgit.com/todylu/monaco.ttf/d258639b/monaco.ttf
 
 ## Web usage
 Copy this code into the <head> section of your HTML document:
 ```html
-<link href="https://rawgit.com/todylu/monaco.ttf/master/monaco.ttf" rel="stylesheet">
+<link href="https://cdn.rawgit.com/todylu/monaco.ttf/d258639b/monaco.ttf" rel="stylesheet">
 ```
   
 Then in your CSS:
