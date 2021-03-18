@@ -12,7 +12,7 @@ So I add the characters by myself and share it.
 
 ## CDN
 You can use rawgit.com as a CDN:
-https://cdn.rawgit.com/todylu/monaco.ttf/d258639b/monaco.ttf
+https://gitcdn.xyz/repo/todylu/monaco.ttf/master/monaco.ttf
 
 ## Web usage
 Copy this code into your CSS stylesheet:
@@ -20,7 +20,7 @@ Copy this code into your CSS stylesheet:
 ```css
 @font-face {
   font-family: 'Monaco';
-  src: url('https://cdn.rawgit.com/todylu/monaco.ttf/d258639b/monaco.ttf') format('truetype'):
+  src: url('https://gitcdn.xyz/repo/todylu/monaco.ttf/master/monaco.ttf') format('truetype'):
   font-weight: normal;
   font-style: normal;
 }
